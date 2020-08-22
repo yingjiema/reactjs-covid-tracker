@@ -6,6 +6,6 @@
 
 ## Reference 
 
-[JavaScript Mastery (Youtube)](https://www.youtube.com/watch?v=khJlrj3Y6Ls&list=PL6zUqMUkK_dfIfzuhnsq5laMJcJNw9GSe&index=3)
+[JavaScript Mastery (Youtube)](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A)
 
 
