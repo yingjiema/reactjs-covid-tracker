@@ -1,8 +1,8 @@
 
 
-## Covid-19 Dashboard in React.js
+## Covid-19 Dashboard in React.js & Chart.js
 
-👉 [Dashboard](https://yingjie-dev.github.io/covid-tracker-reactjs/)
+👉 [Dashboard](https://yingjiema.github.io/covid-tracker-reactjs/)
 
 ## Reference 
 
