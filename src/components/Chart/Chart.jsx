@@ -38,9 +38,15 @@ const Chart = ({ data: {confirmed, recovered, deaths}, country }) => {
       ? (
         <Line 
         options={{
+          responsive: true,
           hover: {
             mode: "nearest",
             intersect: true
+          },
+          elements: {
+              point: {
+                  radius: 0
+              }
           },
           scales: {
             xAxes: [{
@@ -62,15 +68,16 @@ const Chart = ({ data: {confirmed, recovered, deaths}, country }) => {
               return {x: item.date, y: item.confirmed}
             }),
             label: "Infected",
-            borderColor: "#3333ff",
+            borderColor: "rgba(0, 0, 255, 0.5)",
+            backgroundColor: 'rgba(0, 0, 255, 0.1)',
             fill: true,
           }, {
             data: dailyData.map((item) => {
               return {x: item.date, y: item.deaths}
             }),
             label: "Deaths",
-            borderColor: "red",
-            backgroundColor: "rgba(255, 0, 0, 0.5)",
+            borderColor: 'rgba(255, 99, 132, 0.5)',
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
             fill: true,
           }],
         }}
